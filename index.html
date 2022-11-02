@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <!-- Шрифти -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Нормалайз -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- шапка с лого, сайтом и тел.-->
+    <header class="header">
+      <div class="container header-flex">
+        <nav class="nav">
+          <a href="./index.html" class="logo link">Web<span class="studio">Studio</span></a>
+          <ul class="nav-site list">
+            <li class="nav-list"><a href="./index.html" class="link">Студія</a></li>
+            <li class="nav-list"><a href="./portfolio.html" class="link">Портфоліо</a></li>
+            <li class="nav-list"><a href="" class="link">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts list">
+          <li class="contact-list">
+            <svg class="icon-envelope">
+              <use href="./images/spryte.svg#icon-envelope"></use>
+            </svg>
+            <a href="info@devstudio.com" class="link">info@devstudio.com</a>
+          </li>
+          <li class="contact-list">
+            <a href="tel:+38_096_111_11_11" class="link">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!-- блок с заголовком та кнопкою-->
+      <section class="hero">
+        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <button type="button" class="hero-button">Замовити послугу</button>
+      </section>
+
+      <!-- список з особливостями-->
+      <section class="feature-box section">
+        <div class="container">
+          <ul class="feature list">
+            <li class="feature-li">
+              <div class="container-antenna">
+                <svg class="icon-antenna" width="70" height="70">
+                  <use href="./images/symbol-defs.svg#icon-antenna"></use>
+                </svg>
+              </div>
+              <h3 class="title-feature">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="paragraf-feature">
+                Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+              </p>
+            </li>
+            <li class="feature-li">
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="none">
+                  <path
+                    fill="#212121"
+                    d="m67.316 48.339-18.47-18.605 2.05-10.097a4.655 4.655 0 0 0 1.66.319h.014a4.723 4.723 0 1 0-4.394-3.14l-10.85 1.325L19.628.35a1.166 1.166 0 0 0-.824-.35c-.306.002-.6.124-.817.34L14.68 3.63a1.167 1.167 0 0 0 0 1.65l1.78 1.805a32.686 32.686 0 0 0 5.511 38.638c.094.09.202.161.32.213a6.77 6.77 0 0 0-.114 1.197v13.534h-14A5.84 5.84 0 0 0 2.342 66.5v2.333c0 .645.523 1.167 1.167 1.167h53.667c.644 0 1.166-.522 1.166-1.167V66.5a5.84 5.84 0 0 0-5.833-5.833h-14v-5.998c2.193.46 4.428.694 6.669.7a32.483 32.483 0 0 0 15.4-3.901l1.79 1.8c.216.221.513.347.823.35.306-.002.6-.124.817-.34l3.308-3.29a1.167 1.167 0 0 0 0-1.65ZM50.925 13.635a2.333 2.333 0 1 1 1.645 3.987h-.008a2.333 2.333 0 0 1-1.633-3.987h-.004ZM48.178 21.3l-1.309 6.444-2.571-2.587 3.88-3.857Zm-1.325-1.973-4.2 4.176-3.25-3.267 7.45-.909ZM52.509 63a3.5 3.5 0 0 1 3.5 3.5v1.167H4.676V66.5a3.5 3.5 0 0 1 3.5-3.5h44.333Zm-16.333-4.667v2.334H24.509v-2.334h11.667ZM24.509 56v-8.867c0-2.83 2.617-5.133 5.833-5.133 3.217 0 5.834 2.303 5.834 5.133V56H24.509Zm14-3.71v-5.157c0-4.117-3.663-7.466-8.167-7.466a8.312 8.312 0 0 0-7.177 3.907A30.34 30.34 0 0 1 18.18 8.82l40.692 40.925a30.233 30.233 0 0 1-20.363 2.544Zm24.695-1.496-1.644-1.653L18.792 6.116l-1.65-1.655 1.65-1.645L36.15 20.272c.008 0 .013.015.021.021l28.688 28.856-1.655 1.645Z"
+                  />
+                  <path
+                    fill="#2196F3"
+                    d="M30.353 44.333h-.01a3.5 3.5 0 0 0-.011 7h.01a3.5 3.5 0 1 0 .01-7Zm.816 4.328a1.167 1.167 0 1 1-.827-1.994 1.166 1.166 0 0 1 .817 1.993h.01Z"
+                  />
+                </svg>
+              </div>
+              <h3 class="title-feature">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="paragraf-feature">
+                Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+              </p>
+            </li>
+            <li class="feature-li">
+              <div>
+                <svg width="70" height="70">
+                  <use href="./images/symbol-defs.svg#diagram"></use>
+                </svg>
+              </div>
+              <h3 class="title-feature">ПЛАНУВАННЯ</h3>
+              <p class="paragraf-feature">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li class="feature-li">
+              <h3 class="title-feature">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="paragraf-feature">
+                Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Чим займається студія-->
+      <div class="work">
+        <div class="container">
+          <h2 class="title-work">Чим ми займаємося</h2>
+          <ul class="work-list list">
+            <li class="work-element">
+              <img
+                src="./images/box1.jpg"
+                alt="на столі пк,на клавіатурі руки людини"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="work-element">
+              <img
+                src="./images/box2.jpg"
+                alt="руки людини, одна лежить на клавіатурі відкритого ноутбука, інша тримає смарфон"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="work-element">
+              <img
+                src="./images/box3.jpg"
+                alt="руки людини тримають графічний планшет та стілус"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- команда Веб Студії-->
+      <section class="team section">
+        <div class="container">
+          <h2 class="title-team">Наша команда</h2>
+          <ul class="team-list list">
+            <li class="border-team">
+              <img src="./images/1image.jpg" alt="фото чоловіка" width="270" height="260" />
+              <div class="team-border">
+                <h3 class="team-name">Ігор Дем'яненко</h3>
+                <p lang="en" class="team-work">Product Designer</p>
+              </div>
+            </li>
+            <li class="border-team">
+              <img src="./images/2image.jpg" alt="фото жінки" width="270" height="260" />
+              <div class="team-border">
+                <h3 class="team-name">Ольга Рєпіна</h3>
+                <p lang="en" class="team-work">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="border-team">
+              <img src="./images/3image.jpg" alt="фото чоловіка" width="270" height="260" />
+              <div class="team-border">
+                <h3 class="team-name">Микола Тарасов</h3>
+                <p lang="en" class="team-work">Marketing</p>
+              </div>
+            </li>
+            <li class="border-team">
+              <img src="./images/4image.jpg" alt="фото чоловіка" width="270" height="260" />
+              <div class="team-border">
+                <h3 class="team-name">Михайло Єрмаков</h3>
+                <p lang="en" class="team-work">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!--підвал-->
+    <footer class="footer">
+      <div class="container">
+        <a href="./index.html" class="logo link">Web<span class="logo-studio">Studio</span></a>
+        <address class="address">
+          <ul class="address list">
+            <li>
+              <a href="https://goo.gl/maps/RgyNMqf1t5D2GnPq6" class="map link"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
+            <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+            <li><a href="tel:+38_096_111_11_11" class="link link-address">+38 096 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+  </body>
+</html>
