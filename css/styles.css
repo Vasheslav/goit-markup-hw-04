@@ -107,6 +107,7 @@ img {
 .contacts {
     display: flex;
     margin-left: auto;
+    align-items: center;
 }
 
 .contacts .contact-list:not(:last-child) {
@@ -148,11 +149,19 @@ img {
     align-items: center;
 }
 
-.contact-list .icon-envelope{
-    width: 16px;
-    height: 12px;
-    fill: #000;
-    border: #000 solid;
+/* .contacts .contact-list {
+    display: flex;
+    align-items: center;
+} */
+
+.contact-list .icon-contacts{
+    margin-right: 10px;
+    fill: #757575;
+}
+
+.contact-list .icon-contacts:hover,
+.contact-list .icon-contacts:focus {
+    fill: var(--accent-color);
 }
 
 .header .header-flex {
@@ -377,6 +386,49 @@ img {
     fill: #FFFFFF;
 }
 
+/* Наші клієнти! */
+
+.client {
+}
+
+.tittle-client {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-align: center;
+}
+
+.client .list-client {
+    display: flex;
+    gap: 30px;
+}
+
+.list .flex-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.list .flex-list:hover,
+.list .flex-list:focus {
+    border: 1px solid #2196F3;
+}
+
+.flex-list .icon-group {
+    fill:#AFB1B8;
+}
+
+.flex-list .icon-group:hover,
+.flex-list .icon-group:focus {
+    fill:#2196F3;
+}
+
 
 /* portfolio */
 
@@ -420,7 +472,7 @@ img {
     background-color: var(--accent-color);
 }
 
-/* example */
+/* example portfolio*/
 .portfolio {
     background-color: #fff;
 }
@@ -466,7 +518,6 @@ img {
     padding-bottom: 60px;
 
     background-color: #2F303A;
-
 }
 
 .address {
@@ -495,3 +546,39 @@ img {
     color: var(--secondary-color);
     font-style: normal;
 }
+
+.footer .tittle-social {
+    margin-bottom: 20px;
+    font-style:700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.social .social-list {
+    display: flex;
+    gap: 10px;
+}
+
+.social-list .social-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-list .social-items:hover,
+.social-list .social-items:focus {
+    background-color: #2196F3;
+}
+
+.footer .box {
+    display: flex;
+    align-items: baseline;
+    gap:70px;
+}
+
